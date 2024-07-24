@@ -20,6 +20,10 @@ module.exports = {
       telefone: {
         type: Sequelize.STRING(14),
         allowNull: false
+      },
+      idFabricante: {
+        type: Sequelize.INTEGER,
+        allowNull: false
       }
     })
   },

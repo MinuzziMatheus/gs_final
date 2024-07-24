@@ -16,6 +16,7 @@
     "js-md5": "^0.8.3",
     "mysql2": "^3.10.3",
     "nodemon": "^3.1.0",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
   }
 }

@@ -10,6 +10,8 @@ const getUserById = async (id) => {
     return query
 }
 
+
+
 const createUser = async (name, cpf, telefone) => {
     const [query] = await connection.execute(`insert into gs_final.user (name, cpf, telefone) values (?, ?)`, [name, cpf, telefone])
     return query
